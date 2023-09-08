@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>个人博客</title>
+      <style>
+       
+ *{
+     margin:0;
+     padding:0;
+   }
+ 
+     .to{
+     width:100%;
+     height:50px;
+      
+     }
+   .tou{
+     z-index: 1;
+     position:fixed;
+     width:100%;
+     height:50px;
+     background-color:white;
+     box-shadow:0px 1px 10px black;
+       display:flex;
+       
+      }
+    .tou1{
+      flex:1;
+      background-color:;
+      }
+    .tou2{
+     flex:3;
+      background-color:;
+      }
+    .tou3{
+     flex:1;
+      background-color:;
+      }
+    .tou1 div{
+         width:40px;
+         height:40px;
+         margin:0 auto;
+          padding-top:5px;
+         padding-bottom:5px;
+         background-color:;
+         }
+      .tou1 img{
+        border-radius:10px;
+        }  
+     .tou2 div{
+         width:100px;
+         height:40px;
+         margin:auto;
+          padding-top:10px;
+         
+         background-color:;
+         }
+       .tou2 h2{
+         color:#00fbff;
+         }
+      
+       
+       
+       /* 设置下拉菜单样式 */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn{
+ margin-top:5px;
+  width:60px;
+  height:40px;
+  background-color:#00f9ff;
+  border-radius:10px;
+  color:white;
+  font-size:40px;
+  line-height:40px;
+  text-align:center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -100px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 18px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* 显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+  display: block;
+   }    
+   .tu{
+     width:100%;
+     height:200px;
+     background-color:;
+     background-image:url("tu.jpg");
+      background-size:cover;
+     }  
+   .zhu{
+     width:100%;
+     height:1000px;
+     background: linear-gradient(to right,#a7feff,#d8ffc2);
+     }  
+       
+       .wo{
+         position:relative;
+         top:20px;
+         width:90%;
+         height:200px;
+         background-color: #ffffff;
+           box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1),
+            0px 4px 8px rgba(0, 0, 0, 0.1),  
+            0px 4px 8px rgba(0, 0, 0, 0.1),
+            0px 8px 16px rgba(0, 0, 0, 0.1);
+            margin:0 auto;
+            border-radius:10px;
+         }
+       .wo img{
+         margin-top:5px;
+            width:40px;
+            height:40px;
+            border-radius:50px;
+            
+         }
+       
+       .html{
+         width:100%;
+         height:15px;
+         background-color:#B0C4DE;
+        
+         }
+       .htmll{
+         width:60%;
+         height:15px;
+         background-color:#00FFFF;
+         }
+        .css{
+         width:100%;
+         height:15px;
+         background-color:#B0C4DE;
+        
+         }
+       .csss{
+         width:40%;
+         height:15px;
+         background-color:#00FFFF;
+         }
+        .js{
+         width:100%;
+         height:15px;
+         background-color:#B0C4DE;
+        
+         }
+       .jss{
+         width:5%;
+         height:15px;
+         background-color:#00FFFF;
+         }
+       .wen{
+          position:relative;
+          top:50px;
+         width:100%;
+         height:100px;
+         background-color:white;
+         }
+       .wen{
+         line-height:100px;
+         text-align:center;
+         }
+       .zhang{
+        position:relative;
+        top:20px;
+         width:90%;
+         height:230px;
+         background-color: #ffffff;
+           box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1),
+            0px 4px 8px rgba(0, 0, 0, 0.1),  
+            0px 4px 8px rgba(0, 0, 0, 0.1),
+            0px 8px 16px rgba(0, 0, 0, 0.1);
+         margin:0 auto;
+            border-radius:px;
+         }
+       .zhangg{
+             width:100%;
+             height:150px;
+             background-color:;
+             background-image:url("wen1.jpg");
+             background-size:cover;
+         }
+      .zhan{
+             width:100%;
+             height:210px;
+        }
+       .zi1{
+         width:100%;
+         height:20px;
+         background-color:;
+         }
+       .zi2{
+         width:100%;
+         height:70px;
+         background-color:;
+         }
+       .zi3{
+         width:100%;
+         height:20px;
+         background-color:;
+         }
+       .zi1 h3{
+     position:relative;
+     bottom:40px;
+         }
+       .zi2 p{
+        float:left;
+        position:relative;
+         bottom:40px;
+         }
+       .zi3 h6{
+         position:relative;
+         bottom:65px;
+         float:right;
+         padding-right:10px;
+         }
+       .zhangq{
+        position:relative;
+        top:40px;
+         width:90%;
+         height:230px;
+         background-color: #ffffff;
+           box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1),
+            0px 4px 8px rgba(0, 0, 0, 0.1),  
+            0px 4px 8px rgba(0, 0, 0, 0.1),
+            0px 8px 16px rgba(0, 0, 0, 0.1);
+         margin:0 auto;
+            border-radius:px;
+         }
+      </style>
+  </head>
+  <body>	
+	   <div class="to">
+          <div class="tou">
+               <div class="tou1">
+                     <div>
+                           <img src="appIcon.png"/ width="40px" height="40px">
+                     </div>
+               </div>
+               <div class="tou2">
+                   <div>
+                        <h2>风情博客</h2>
+                   </div>
+               </div>
+               <div class="tou3">
+                    <div class="dropdown">
+                    <div class="dropbtn">≡</div>
+                    <div class="dropdown-content">
+                     <!-- 在这里添加菜单选项 -->
+                     <a href="lxfs.html">点我前往详情页面</a>
+                     <a href="yq.html">联系方式</a>
+                     <a href="zw.heml">暂无</a>
+  </div>
+</div>
+               </div>
+          </div>
+    </div>
+    
+    
+    <div class="tu"></div>
+    <div class="zhu">
+        <div class="wo">
+         <center>   <img src="appIcon.png"/>
+             <h5>梦泽</h5>
+             <h3>“万物皆有裂痕，那是光进来的地方”</h3>
+             <h3>Everything has cracks, that is where light comes in.</h3></center>
+            <h6>html</h6>
+            <div class="html">
+                 <div class="htmll"></div>
+                 </div>
+                 <h6>css</h6>
+                 <div class="css">
+                 <div class="csss"></div>
+                 </div>
+                 <h6>js</h6>
+                 <div class="js">
+                 <div class="jss"></div>
+                 </div>
+            </div>
+            <div class="wen">
+             <h1>一 文章板块 一</h1>
+             
+             <div class="zhang">
+                   <div class="zhangg"></div>
+                       <div class="zhan">
+                           <div class="zi1">
+                               <h3>个人作品</h3>
+                           </div>
+                           <div class="zi2">
+                              <p><a href="https://klpbbs.com/thread-103533-1-1.html">《MUJI UI》(点我前往)</a></p>
+                           </div>
+                           <div class="zi3">
+                               <h6>2023/8/07</h6>
+                           </div>
+                           </div>
+                      
+               </div>
+                   
+                     <div class="zhangq">
+                   <div class="zhangg"></div>
+                       <div class="zhan">
+                           <div class="zi1">
+                             <h3>个人简介</h3>    
+                           </div>
+                           <div class="zi2">
+                           <p>Minecraft创作者一枚~<p>
+                           </div>
+                           <div class="zi3">
+                               <h6>2023/8/07</h6>
+                           </div>
+                           </div>
+                      
+               </div>
+               
+                      
+              
+               
+             
+
+        
+        
+   
+    
+    
+    
+    <script src="https://api.vvhan.com/api/yinghua"></script>
+  </body>
+</html>
