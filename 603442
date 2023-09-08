@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系方式</title>
+    <style>
+        body {
+            background-image: url("https://ts1.cn.mm.bing.net/th/id/R-C.ca58ca2c125f530eecd0aeddd3cd7230?rik=msEqs4j3OLuAEw&riu=http%3a%2f%2fwww.toopic.cn%2fpublic%2fuploads%2fimage%2f20200412%2f20200412115045_26029.jpg&ehk=SgBpFS%2bnP3hddXzU2E7eRBw79eL%2fMSMAIgOhzu6I%2bW0%3d&risl=&pid=ImgRaw&r=0");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <h2>联系方式</h2>
+    <ul>
+        <li>邮件1： <a href="mailto:2370925529@qq.com">2370925529@qq.com</a></li>
+        <li>邮箱2： <a href="mailto:MengZe2MC@gmail.com">MengZe2MC@gmail.com</a></li>
+        <li>邮箱3： <a href="mailto:lyl518@outlook.com">lyl518@outlook.com</a></li>
+        <li>邮箱4： <a href="mailto:liyilei114514@Hotmail.com">liyilei114514@Hotmail.com</a></li>
+        <li>QQ： <a href="tencent://message/?uin=2370925529">2370925529</a></li>
+        <li>Xbox： MengZe2</li>
+        <li>Twitter： <a href="https://twitter.com/MengZe2MC?s=09">@MengZe2MC</a></li>
+        <li>YouTube： <a href="https://youtube.com/@Ze2Meng-vd4ls?si=FAHNi2XWetqo8zGE">Ze2 Meng</a></li>
+    </ul>
+</body>
+</html>
